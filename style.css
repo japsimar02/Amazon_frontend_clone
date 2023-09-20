@@ -21,7 +21,7 @@
 }
 
 .logo{
-    background-image: url(/images/amazon_logo.png);
+    background-image: url(./images/amazon_logo.png);
     background-size: cover;
     height: 60px;
     width: 100%;
@@ -104,7 +104,7 @@
 }
 
 .flag-img{
-    background-image: url(/images/flag.png);
+    background-image: url(./images/flag.png);
     height: 21px;
     background-size: cover;
     width: 29px;
@@ -377,7 +377,6 @@
 /* SHOP SECTION */
 
 .shop-section{
-    /* position: absolute; */
     z-index: 9;
     padding-top: 0;
     display: flex;
@@ -426,19 +425,14 @@
     height: 420px;
     margin-top: 9px;
     width: 23%;
-    /* margin-left: 1.78rem;
-    margin-right: 1.78rem; */
-    /* max-width: 310px; */
     box-shadow: -10px -0px 20px rgba(196, 240, 240,0.5),
     20px 10px 20px rgba(196, 240, 240,0.5);
-    /* padding: 10px; */
 }
 
 .nested-card h2{
     margin-left: 1.78rem;
     margin-right: 1.78rem;
     margin-top: 12px;
-    /* margin-top: 4px; */
 }
 
 .nested-box{
